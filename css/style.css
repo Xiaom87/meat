@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Philosopher&family=Playfair+Display:ital@1&family=Poppins:wght@300;400;500&family=Rubik+Mono+One&family=Rubik:wght@700&display=swap');
+
+* {
+   box-sizing: border-box;
+}
+.nav-centered {
+   width: 100%;
+   justify-content: center;
+}
+.navbar-brand {
+   font-weight: bold;
+   font-family: sans-serif;
+}
+.head-conpany {
+   color: #8AA9D6;
+  
+}
+
+.collapse ul a {
+   color: black;
+}
+.collapse ul a:hover {
+   color: red;
+   border-bottom: 1px solid red;
+}
+.header-icons div {
+  height: 4.5rem;
+  width: 4.5rem;
+  line-height: 4.5rem;
+  border-radius: 3rem;
+  background: #eee;
+  font-size: 1.5rem;
+  margin-right: .3rem;
+  cursor: pointer;
+  text-align: center;
+}
+.landing-block {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   background: url(../img/01.jpg) no-repeat;
+   background-position: center;
+   background-size: cover;
+  height: 800px;
+  position: relative;
+  text-align: left;
+}
+.landing-block-head {
+   font-size: 40px;
+   font-weight: bold;
+   color: white;
+}
+
+.landing-block-text {
+   font-size: 30px;
+   font-family: Philosopher;
+}
+.landing-block-card-text {
+   font-family: Philosopher;
+   font-size: 20px;
+   font-weight: 400;
+   color: white;
+}
+
+.landing-block-delivery-img img {
+   float: left;
+}
+.landing-block-delivery-text {
+   line-height: 2;
+}
+.delivery-icon {
+   width: 5%;
+   height: 2rem;
+}
+.landing-block-production {
+   background-color: bisque;
+}
+.landing-block-production-head h2 {
+   font-size: 28px;
+}
+
+.partners-text {
+   font-size: 40px;
+   color: red;
+   font-weight: 600;
+}
+.landing-partners-img img {
+   padding: 5px;
+   border: 1px solid black;
+   border-radius: 1px;
+}
+.landing-partners-img {
+   text-align: center;
+   transition: all 2s cubic-bezier(0.7, -5, 0.3, 1.8);
+   transform-style: preserve-3d;
+}
+.landing-partners-img:hover {
+   transform: rotateY(100deg);
+}
+
+.landing-block-reviews {
+   background-color: bisque;
+}
+.block-reviews-img {
+   width: 20px;
+}
+.block-answers-text-right {
+   font-size: 10px;
+}
+.landing-block-feedback {
+   background-color: beige;
+}
+.block-fedback-form-text {
+   font-size: 10px;
+   text-align: left;
+}
+.questions-text-bottom {
+   font-size: 20px;
+}
+.block-questions-adress {
+   border: 1px solid red;
+   border-left: 25px;
+   border-top: none;
+   border-bottom: none;
+}
+.block-questions-phone {
+   border: 1px solid red;
+   border-left: 25px;
+   border-top: none;
+   border-bottom: none;
+}
+.footer {
+   background: beige;
+}
+.footer .box-container {
+   display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+   gap: 1.5rem;
+}
+.footer .box-container .box h3 {
+   font-size: 2.5rem;
+   padding: 1rem 0;
+}
+.footer .box-container .box .links {
+   display: block;
+   font-size: 1.5rem;
+   color:var(--light-color);
+   padding: 1rem 0;
+   }
+.footer .box-container .box .links:hover i {
+      padding: 2rem;
+   }
+ .footer .box-container .box .links i {
+      padding-right: .5rem;
+ }
+.footer .box-container .box p {
+  line-height: 1.8;
+  font-size: 1.5rem;
+  padding: 1rem 0;
+ }
+ .footer .box-container .box .footer-icon a {
+   height: 4rem;
+   width: 4rem;
+   line-height: 4rem;
+   border-radius: .5rem;
+   font-size: 2rem;
+   margin-left: .2rem;
+   background: #eee;
+   text-align: center;
+   color: #808080;
+}
+.footer .box-container .box a:hover i {
+   color: #8AA9D6;
+}
+.footer .box-container .box .email {
+   width: 100%;
+   margin: .7rem;
+   padding: 1rem;
+   border-radius: .5rem;
+   background: #eee;
+   font-size: 1.6rem;
+   color: var(--black);
+   text-transform: none;
+}
+.footer .box-container .box .payment-img {
+   margin-top: 2rem;
+   height: 3rem;
+}
+.landing-block-delivery-img-bottom img {
+   height: 10rem;
+}
+.animate__animated {
+   display: inline-block;
+  margin: 0 0.5rem;
+
+  animation: bounce; 
+  animation-duration: 5s; 
+}
+@media screen and (max-width:576px) {
+   .block-questions-adress {
+      border-right: none;
+   }
+   .block-questions-phone {
+      border-right: none;
+   }
+}
